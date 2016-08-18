@@ -8,7 +8,8 @@ body {
     margin: 0;
     padding: 0;
     background: #fafafa url(../images/bg.png) left top repeat-x;
-    font-family: "Helvetica Neue", Helvetica, Arial;
+    /*font-family: "Helvetica Neue", Helvetica, Arial;*/
+    font-family: 'Oswald', sans-serif;
 }
 div#shim {
     visibility: hidden;

@@ -1,0 +1,480 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"insta",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"cdn",
+				"Cdnjs: Import URL only"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"np",
+				"Snippet: html"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robotici/Documents-local/github/vault_v2/include/footer-client.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/functions.php",
+		"/Users/robotici/Documents-local/github/vault_v2/client/functions.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/profile/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/client/pages/client_overview.php",
+		"/Users/robotici/Documents-local/github/vault_v2/client/pages/promotion_overview.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/widgets/home.php",
+		"/Users/robotici/Documents-local/github/vault_v2/client/pages/gameplan.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/header-client.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/promotions/single_add.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/css/style-app.css",
+		"/Users/robotici/Documents-local/github/vault_v2/client/pages/flyer.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/footer.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/js/app.js",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/js/app-client.js",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/invoice.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/print.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/js/script.js",
+		"/Users/robotici/Desktop/index.html",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/css/gameplan.css",
+		"/Users/robotici/Documents-local/github/vault_v2/include/header.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/css/style-client-theme.css",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/single/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/.htaccess",
+		"/Users/robotici/Documents-local/github/vault_v2/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/session/settings.php",
+		"/Users/robotici/Documents-local/github/vault_v2/session/new.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/sendcards/details.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/terms/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/promotions/details.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/js/bootstrap-select.min.js",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/promotions/add_to_promo.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/template-menu/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/single/index.BAK",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/csv/index.php",
+		"/Users/robotici/Documents-local/CLIENTS/001CURRENT/PromotionVault/products-WB0R5L90S/Static_Full_Version/dashboard_4_1.html",
+		"/Users/robotici/Documents-local/github/vault_v2/include/header-template-menu.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/footer-template-menu.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/template-menu/index1.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/footer-slide-menu.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/template-menu/details.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/coming_soon_home.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/sendcards/details.bak",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/admin/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/css/style.css",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/search/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/search/search.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/css/csvupload.css",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/promotions/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/session/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/session/user_settings.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/admin/abc_data/settings.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/js/csvupload.js",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/promotions/calendar.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/admin/abc_data/member_search/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/cycle_details.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/details.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/index.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/js/bootstrap-tagsinput.js",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/scripts/get_promos_cycle.php",
+		"/Users/robotici/Documents-local/github/vault_v2/session/multi_account.php",
+		"/Users/robotici/Documents-local/github/vault_v2/session/multi_login.php",
+		"/Users/robotici/Documents-local/github/vault_v2/pages/billing/scripts/get_promos.php",
+		"/Users/robotici/Documents-local/github/vault_v2/include/vault_functions.php",
+		"/Users/robotici/Documents-local/github/ui/README.md",
+		"/Users/robotici/Documents-local/github/ui/pages/thevault/index-wilson.php",
+		"/Users/robotici/Documents-local/github/ui/inc/header.php",
+		"/Users/robotici/Documents-local/github/ui/theme/js/app.js",
+		"/Users/robotici/Documents-local/github/ui/inc/footer.php",
+		"/Users/robotici/Documents-local/github/ui/pages/terms/index.php",
+		"/Users/robotici/Documents-local/github/ui/theme/css/bootstrap.css.map",
+		"/Users/robotici/Documents-local/github/ui/.htaccess",
+		"/Users/robotici/Documents-local/github/ui/theme/css/bootstrap.min.css.map",
+		"/Users/robotici/Documents-local/Sites/promotionvault/wp-content/themes/copro-child/header.php.bak",
+		"/Users/robotici/Documents-local/Sites/jasonleewilson/wp-assets/themes/goodwork/includes/extend-vc/shortcodes.php",
+		"/Users/robotici/Documents-local/github/ui/pages/daniel/index.php",
+		"/Users/robotici/Documents-local/github/ui/include/footer.php",
+		"/Users/robotici/Documents-local/github/ui/pages/support/index.php",
+		"/Users/robotici/Documents-local/github/ui/include/header-client.php",
+		"/Users/robotici/Documents-local/github/ui/include/footer-client.php",
+		"/Users/robotici/Documents-local/github/ui/pages/privacy/index.php",
+		"/Users/robotici/Documents-local/github/ui/include/header.php",
+		"/Users/robotici/Documents-local/github/ui/index.php",
+		"/Users/robotici/Documents-local/github/ui/theme/js/clipboard.min.js",
+		"/Users/robotici/Documents-local/github/ui/theme/css/style-app.css",
+		"/Users/robotici/Documents-local/github/ui/pages/redem.php",
+		"/Users/robotici/Documents-local/github/vault_v2/theme/css/bootstrap.css.map",
+		"/Users/robotici/Documents/github/clones/node-js-getting-started/index.js",
+		"/Users/robotici/Downloads/SF_SAMPLE__g6XcU/index.html",
+		"/Users/robotici/.bash_profile",
+		"/Users/robotici/.bash_profile.pysave",
+		"/Users/robotici/Desktop/backup/bash_profile-backup.sh",
+		"/usr/local/CODEOFCONDUCT.md",
+		"/Users/robotici/Documents/clients/elpasoflag/.htaccess",
+		"/Users/robotici/Desktop/desktop2/test-svg/index.html",
+		"/Users/robotici/Desktop/Justified Nav Template for Bootstrap.webarchive",
+		"/Users/robotici/Desktop/desktop2/test-svg/svg-test1.svg",
+		"/Users/robotici/Desktop/contact-form.php",
+		"/Users/robotici/Desktop/wp-mail.php",
+		"/Users/robotici/Desktop/Untitled.svg",
+		"/Users/robotici/Downloads/hue-men.com",
+		"/Users/robotici/Desktop/myapp1/dist/index.html",
+		"/Users/robotici/Desktop/PRESENTATION/How to run a customer journey mapping workshop.webarchive",
+		"/Users/robotici/Desktop/js-stack-from-scratch/js-stack-from-scratch/README.md",
+		"/Users/robotici/Desktop/test1/boilerplate/README.md",
+		"/Users/robotici/Downloads/Supernice.css",
+		"/Users/robotici/Downloads/awwwards/ihatetomatoes.net/awwwards/index.html",
+		"/Users/robotici/Documents/github/repo/jasonleewilson.github.io/README.md",
+		"/Users/robotici/Documents/sandbox/root1/sandbox/.git/index",
+		"/Users/robotici/Documents/sandbox/root1/sandbox/README.md",
+		"/Users/robotici/Documents/codekit/1/bower_components/html5-boilerplate/README.md",
+		"/Users/robotici/Documents/codekit/1/css/ie.css",
+		"/Users/robotici/Desktop/jasonleewilson-htaccess/humans.txt-1373281677.bak",
+		"/Users/robotici/Desktop/Kid_heartbeat_DHR_NorthState_300x250/Kid_heartbeat_DHR_NorthState_300x250.html",
+		"/Users/robotici/Desktop/.htaccess",
+		"/Users/robotici/Documents/clients/holotouchusa/coming-soon/index.html",
+		"/Users/robotici/Desktop/wp-config.php",
+		"/Users/robotici/Documents/clients/holotouchusa/coming-soon/css/style.css",
+		"/Users/robotici/Documents/clients/PW/lightenup/microsite-lightenup9/css/style.css",
+		"/Users/robotici/Documents/clients/PW/lightenup/microsite-lightenup9/index.html",
+		"/Users/robotici/Documents/clients/PW/lightenup/microsite-lightenup9/css/style-ani.css",
+		"/Users/robotici/Downloads/amir-vs-floyd-final/end/index.html",
+		"/Users/robotici/Desktop/indexmain.html",
+		"/Users/robotici/Desktop/Kidseatfree-loyalty.html",
+		"/Users/robotici/Documents/clients/PW/lightenup/microsite-lightenup7/index.html",
+		"/Users/robotici/Documents/clients/current-price/index.html",
+		"/Users/robotici/Documents/clients/PW/lightenup/microsite-lightenup5/css/style-ani.css",
+		"/Users/robotici/Documents/clients/PW/lightenup/microsite-lightenup5/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bootstrap-datetimepicker.js",
+			"bootstrap-datetimepicker.min.js",
+			"collapse.js",
+			"Template",
+			"temp",
+			"Template",
+			".toggleClass('fa-plus-square fa-minus-square')",
+			"activated email address",
+			"offer",
+			"OPexpirationText",
+			"/theme/js/jquery-2.1.1.js",
+			"book",
+			"BOOKMARK THIS OFFER",
+			"expire",
+			"responsive.css",
+			"responsive.less",
+			"EXPIRES",
+			" EXPIRES",
+			"PROGRESS",
+			"gameplan_instructions",
+			"offer",
+			"Membership Dues",
+			"Checking Account For Membership Dues",
+			"New member completes ",
+			"gift-5",
+			"alt=\"gift-5\"",
+			"howto",
+			"container howto",
+			"printDetailsCard",
+			"click",
+			"none",
+			"click",
+			"printDiv",
+			"printDetailsCard",
+			"button",
+			"CLICK TO PRINT PAGE",
+			"YOUR STAFF GAME PLAN",
+			"print",
+			"printDiv",
+			"click to p",
+			" printDiv",
+			"LinkNoBreak",
+			"width",
+			"printDetailsCard",
+			"agreement must be completed",
+			"Step 1",
+			"alt=\"Step 1\"",
+			"1-2.png",
+			"2016/09/1-2.png",
+			"fulfillment date",
+			"New member completes",
+			"1.",
+			"img",
+			"Get Help!",
+			"ELIGIBILITY TERMS AND CONDITIONS",
+			"just for you from",
+			"Exciting offers just for you from",
+			"For eligible recipients only.",
+			"For eligable recipients only.",
+			"For qualified recipients only.",
+			"mode_search",
+			"Bloodhound",
+			"input-daterange",
+			"data_5",
+			"mode",
+			"col-sm-6",
+			".on",
+			"on.",
+			".on",
+			".load",
+			"$(window)",
+			".load",
+			"(window).load",
+			"$(window).load",
+			"l_button_chat",
+			"data_5",
+			"class=\"OPtermsBox\"",
+			"OPdetailWrap",
+			"OPofferTitle",
+			"$pv_logo",
+			"print",
+			"jpg",
+			"png",
+			".jpg",
+			">\n",
+			"http://yourpromotionvault.com/wp-content/themes/live_support/js/",
+			"?ver=4.7.5",
+			"?ver=1.11.4'",
+			"tabs",
+			"accordion",
+			"widget",
+			"core",
+			"l_button_chat",
+			"print",
+			"printDetailsCard",
+			"id=\"printDetailsCard\"",
+			"printDetails",
+			"printDetailsCard",
+			"printDiv",
+			"print page",
+			"For qualified recipients only.",
+			"out",
+			"Select a location to see their flyer",
+			"col-sm-offset-3 col-sm-6",
+			"Select a location to see their current offers",
+			"animate.css",
+			"css/css",
+			"css/css/",
+			"For qualified recipients only",
+			"animate",
+			".stag-",
+			"game",
+			"img",
+			"select",
+			".content-onepage",
+			"Download the ",
+			"order",
+			"'",
+			"thevault.css",
+			"PVmainLogo",
+			"responsive.css",
+			"href",
+			"    overflow: hidden;",
+			".btn",
+			"entry input-group",
+			"order",
+			"<p>General</p>",
+			"#step-1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-xs-6",
+			"\"",
+			"I am an authorized user and understand this gift card will incur fees per the Promotion Vault Master Service Agreement.",
+			"/theme/fonts/glyphicons",
+			"PW-1211KidsEatfree",
+			"current-price",
+			"ff0000",
+			"content",
+			"http://elpasoflag.org/elpasoflag/images/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

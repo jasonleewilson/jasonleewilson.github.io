@@ -5573,7 +5573,7 @@ button.close {
     bottom: 20px;
   }
 }
-.clearfix:before,
+/* .clearfix:before,
 .clearfix:after,
 .container:before,
 .container:after,
@@ -5603,7 +5603,7 @@ button.close {
 .modal-footer:after {
   content: " ";
   display: table;
-}
+} */
 .clearfix:after,
 .container:after,
 .container-fluid:after,

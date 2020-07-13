@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
+
+            *,
+            *:before,
+            *:after {
+            box-sizing: inherit;
+            }
+
+            /* .content-box-element {
+            box-sizing: content-box;
+            } */
+
+            .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #aeaeae;
+            }
+
+            .row {
+            width: 100%;
+            }
+
+            .col {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 33%;
+            height: 200px;
+            padding: 20px;
+            outline: 1px solid #010101;
+            }
+
+
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="row">
+          <div class="col">ONE</div>
+          <div class="col">TWO</div>
+          <div class="col">THREE</div>
+        </div>
+      </main>
+</body>
+</html>

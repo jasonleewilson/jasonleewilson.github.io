@@ -1,0 +1,67 @@
+
+.main {position: relative; width: 100%; /*height: 100%;background: url('../images/bg.jpg') no-repeat top center;*/ padding: 30px 0 0 0;/*height:2608px;*/ /*-webkit-background-size: cover; background-size: cover; height: 100%;*/}
+section {padding:0;}
+.full-screen {
+	position: relative;
+	height: 100%;
+}
+
+header p {font-size: 14px;}
+
+/*SECTION BACKGROUND*/
+/*#about {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background: #c0cb3d url("../images/bg-mountain-mint.svg") no-repeat center top;*/
+	/*background-size: 100% 100%;
+}*/
+
+.logo-quinoa {padding-top: 60px;}
+
+#section5-desktop, #section5-mobile {
+	background: #9ec6c1;
+	height: 900px;
+	width: 100%;
+	top: -194em;
+	z-index: 14;
+	position: relative;
+	}
+
+/*MOBILE*/
+@media only screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+	/*.main {position: relative;}
+	footer { position: relative;top: -225em;}*/
+	.dish-copy, .hero-copy {width: 100%;}
+	.hidethis {display: none;}
+	.btn-modal { margin: 30px 45%;}
+
+	.logo-lightenup {width: 100% !important; margin: 0 auto;}
+	/*#section4 {bottom: 230em;}
+	#section4-5 {bottom:415em}
+	#section5 {padding: 0;bottom: 237em;}
+	#rice {display: none;}
+	footer {top: -261em;}*/
+}
+
+@media (max-width: 767px){
+	.logo-lightenup {width: 60%; margin: 0 auto;}
+
+}
+@media (min-width: 960px) and (max-width: 2600px){
+	#section5-desktop {display:none;}
+}
+
+@media (min-width: 280px) and (max-width: 959px) {
+	#section5-mobile {display:none;}
+}
+
+@media (min-width: 2160px){
+	#section4 {height: 2072px;}
+	#section4-5 {top: -298em;}
+/*	#section4-5 {bottom: 387em;}
+	#section5 {bottom: 242em;}*/
+}
+
+
+

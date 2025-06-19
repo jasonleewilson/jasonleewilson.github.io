@@ -1,0 +1,246 @@
+
+.main {position: relative;}
+
+.full-screen {
+	position: relative;
+	height: 100%;
+}
+
+header p {font-size: 14px;}
+
+/*SECTION BACKGROUND*/
+/*#about {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background: #c0cb3d url("../images/bg-mountain-mint.svg") no-repeat center top;*/
+	/*background-size: 100% 100%;
+}*/
+
+.logo-lightenup {width: 530px;padding-top: 100px;}
+
+.sun {width: 120px;}
+
+#bird1 {
+	width: 50px;
+	top: 1320px;
+	left: 0;
+    z-index: 15;
+    position: absolute;
+	}
+
+#bird2 {
+	width: 50px;
+	top: 1920px;
+	right: 0;
+    z-index: 15;
+    position: absolute;
+	}
+
+#bird3 {
+	width: 50px;
+	top: 300px;
+	right: 0;
+    z-index: 15;
+    position: absolute;
+	}
+
+.shadow {
+    -webkit-filter: drop-shadow(2px -8px 2px rgba(0,0,0,0.1));
+    /*filter: url(.shadow);*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.green-bg {
+    background-color: #cad04a;
+}
+
+section {padding:0;}
+
+#section1 {
+	/*background: url("../images/bg-section2.png") no-repeat center top;*/
+	background-color: #CAD04A;
+	height: 1497px;
+	background-size: cover;
+	width: 100%;
+	top: -32em;
+	z-index: 1;
+	position: relative;
+}
+
+#section2 {
+	background: url("../images/bg-section2.png") no-repeat center top;
+	height: 1497px;
+	background-size: cover;
+	width: 100%;
+	top: -116em;
+	z-index: 2;
+	position: relative;
+}
+
+#section3 {
+	background: url("../images/bg-section3.png") no-repeat center top;
+	height: 1428px;
+	background-size: cover;
+	width: 100%;
+	bottom: 137em;
+	z-index: 4;
+	position: relative;
+}
+
+#section4 {
+	background: url("../images/bg-section4.png") no-repeat center top;
+	height: 1772px;
+	background-size: cover;
+	width: 100%;
+	bottom: 164em;
+	z-index: 5;
+	position: relative;
+}
+
+#section5 {
+	background: #9ec6c1;
+	/*height: 900px;
+	width: 100%;
+	bottom: 171em;
+	z-index: 14;
+	position: relative;*/
+	}
+
+#sun { position: absolute; left: 20%; bottom: 35%;z-index: 5;}
+/*#rice { position: absolute; left: 0%; bottom: 35%;z-index: 5;}*/
+
+#rice {
+	background: url("../images/bg-rice.png") no-repeat center top;
+	height: 1128px;
+	background-size: cover;
+	width: 100%;
+	top: -7em;
+	z-index: -1;
+	position: relative;
+}
+}
+/*#trees { position: absolute; left: 20%; bottom: 35%;z-index: 5;}*/
+
+#cloud1 {
+	position: absolute;
+	left: 4%;
+	top: 35%;
+	background: url("../images/cloud1.png") no-repeat center top;
+	width: 257px;
+	height: 92px;
+}
+
+#cloud2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: url("../images/cloud2.png") no-repeat center top;
+	width: 544px;
+	height: 177px;
+}
+
+#cloud3 {
+	position: absolute;
+	left: 80%;
+	top: 38%;
+	background: url("../images/cloud3.png") no-repeat center top;
+	width: 254px;
+	height: 105px;
+}
+
+#mountain-1 {
+	position: absolute;
+	/*left: 0;*/
+	bottom: 0;
+	background: url("../images/bg-mountain-bottom-green11.svg") bottom center no-repeat;
+	/*background-size: 100% 100%;*/
+	height: 194px;
+	width: 100%;
+	z-index: 10;
+}
+
+#mountain-2 {
+	position: absolute;
+	left: -23px;
+	bottom: 13px;
+	background: url("../images/bg-mountain-bottom-green2.svg") bottom center no-repeat;
+	/*background-size: 100% 100%;*/
+	height: 564px;
+	width: 100%;
+	z-index: 9;
+}
+
+#mountain-3 {
+	position: absolute;
+	left: 0px;
+	bottom: 18px;
+	background: url("../images/bg-mountain-bottom-green3.svg") bottom center no-repeat;
+	/*background-size: 100% 100%;*/
+	height: 438px;
+	width: 100%;
+	z-index: 8;
+}
+
+#mountain-4 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: url("../images/bg-mountain-bottom-green4.svg") bottom center no-repeat;
+	/*background-size: 100% 100%;*/
+	height: 730px;
+	width: 100%;
+	z-index: 7;
+}
+
+#mountain-5 {
+	position: absolute;
+	left: 18px;
+	bottom: 0px;
+	background: url("../images/bg-mountain-bottom-green5.svg") bottom center no-repeat;
+	/*background-size: 100% 100%;*/
+	height: 460px;
+	width: 100%;
+	z-index: 6;
+}
+
+#trees {
+	position: relative;
+	left: 0px;
+	bottom: -185px;
+	background: url("../images/bg-mountain-trees.png") bottom center no-repeat;
+	/*background-size: 100% 100%;*/
+	height: 438px;
+	width: 100%;
+	z-index: 2;
+}
+
+#dish2 {/*margin-top: 465px;*/}
+#dish3 {margin-top: 500px;}
+#dish4 {margin-top: 600px;}
+
+.dish-copy {
+	padding: 20px;
+	width: 350px;
+	margin:19px auto 30px;
+	position: relative;
+	color: #FFF;
+	-webkit-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.6);
+}
+
+#dish1 .bg {background-color: #b6c13a;}
+#dish2 .bg {background-color: #b4cdac;}
+#dish3 .bg {background-color: #b5c13b;}
+#dish4 .bg {background-color: #5a99a6;}
+
+.dish-copy h6 { font-size: 24px; font-weight:bold; margin:0; }
+.dish-copy p { margin: 10px 0; }
+.dish-copy strong { font-size: 18px; }
+
+/*#mountain-2 { position: absolute; left: 67px; bottom: 0;}
+#mountain-3 { position: absolute; left: -145px; bottom: 0;}
+#mountain-4 { position: absolute; left: 0; bottom: 0;}
+#mountain-5 { position: absolute; left: 0; bottom: 0;}*/

@@ -1,0 +1,210 @@
+@media (min-width: 501px) and (max-width: 767px) {
+    .main {
+      height:1688px;
+    }
+
+    a.hvr-grow.desk {display: none;}
+
+    #btn-red-bell-peppers   {top:758px;left:330px;}
+    #btn-carrots            {top:856px;left:52px;}
+    #btn-crushed-red-pepper {top:900px;left:272px;}
+    #btn-peanuts            {top:1008px;left:500px;}
+    #btn-snap-peas          {top:1394px;left:450px;}
+    #btn-garlic             {top:1556px;left:216px;}
+    #btn-cta                {top:1270px;left:8px;margin:0;}
+    .btn-plus .text {top:70% !important;left: -100% !important;}
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .hidethis {display: none;}
+  .container {margin:0; padding:0;}
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 501px)
+  and (max-device-width: 747px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .main {
+      height:1688px;
+    }
+
+    a.hvr-grow.desk {display: none;}
+
+    #btn-red-bell-peppers   {top:758px;left:330px;}
+    #btn-carrots            {top:856px;left:52px;}
+    #btn-crushed-red-pepper {top:900px;left:272px;}
+    #btn-peanuts            {top:1008px;left:500px;}
+    #btn-snap-peas          {top:1394px;left:450px;}
+    #btn-garlic             {top:1556px;left:216px;}
+    #btn-cta                {top:1270px;left:8px;margin:0;}
+    .btn-plus .text {top:70% !important;left: -100% !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .hero-sub {display:none;}
+
+    #btn-red-bell-peppers   {top:558px;left:250px;}
+    #btn-carrots            {top:636px;left:62px;}
+    #btn-crushed-red-pepper {top:670px;left:202px;}
+    #btn-peanuts            {top:700px !important;left:340px !important;}
+    #btn-snap-peas          {top:1054px;left:320px !important;}
+    #btn-garlic             {top:1156px;left:176px;}
+    #btn-cta                {top:630px !important;left:0px;margin:0;}
+    .btn-plus .text {top:70% !important;left: -100% !important;}
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .main {
+      height:1265px;background: url('../images/bg-575.jpg') no-repeat top center;
+/*      background-size:contain;
+      background-position:center;*/
+    }
+
+    a.hvr-grow.desk {display: none;}
+    .hero-sub {display:none;}
+
+    #btn-red-bell-peppers   {top:558px;left:250px;}
+    #btn-carrots            {top:636px;left:62px;}
+    #btn-crushed-red-pepper {top:670px;left:202px;}
+    #btn-peanuts            {top:738px;left:380px;}
+    #btn-snap-peas          {top:1054px;left:360px;}
+    #btn-garlic             {top:1156px;left:156px;}
+    #btn-cta                {top:940px !important;left:28px;margin:0;}
+    .btn-plus .text {top:70% !important;left: -100% !important;}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .main {
+      height:1688px;
+    }
+
+    a.hvr-grow.desk {display: none;}
+
+    #btn-red-bell-peppers   {top:758px;left:330px;}
+    #btn-carrots            {top:856px;left:52px;}
+    #btn-crushed-red-pepper {top:900px;left:272px;}
+    #btn-peanuts            {top:1008px;left:500px;}
+    #btn-snap-peas          {top:1394px;left:450px;}
+    #btn-garlic             {top:1556px;left:216px;}
+    #btn-cta                {top:1270px;left:48px;margin:0;}
+    .btn-plus .text {top:70% !important;left: -100% !important;}
+
+}
